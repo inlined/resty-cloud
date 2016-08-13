@@ -30,3 +30,5 @@ const getKnownLanguages = cloud.translate.get('languages').then((res) => {
   res.data.languages.map((e) => e.language);
 });
 ```
+
+Other methods are `getBuffer` and `post`. Each method takes an optional second `options` parameter. The `options` parameter can include `qs` for query string parameters, `headers` for headers, and `body` for a JSON body object (post only)
