@@ -1,0 +1,23 @@
+{
+  "name": "resty-cloud",
+  "version": "0.0.1",
+  "description": "A REST & Promise Node API for Google Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inlined/resty-cloud.git"
+  },
+  "author": "Thomas Bouldin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/inlined/resty-cloud/issues"
+  },
+  "homepage": "https://github.com/inlined/resty-cloud#readme",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "request-promise": "^4.1.1"
+  }
+}
